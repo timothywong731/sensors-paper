@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.24)  4 APR 2018 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.24)  7 JUN 2018 01:15
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -462,21 +462,21 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 ) (paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -508,7 +508,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -518,9 +518,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
 
 (paper.out) (paper.out)
 \@outlinefile=\write3
@@ -564,63 +564,63 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 39.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 22.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 39.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 39.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 39.
+(hyperref)                removing `\\' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unskip' on input line 39.
+(hyperref)                removing `\unskip' on input line 22.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 27.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
  [1
 
 {C:/Users/wong0s/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 <seq2seq.PNG, id=69, 1186.93437pt x 387.94937pt>
 File: seq2seq.PNG Graphic file (type png)
 <use seq2seq.PNG>
-Package pdftex.def Info: seq2seq.PNG  used on input line 83. on input line 83.
+Package pdftex.def Info: seq2seq.PNG  used on input line 60. on input line 60.
 Package pdftex.def Info: Requested size: 430.00462pt x 140.5496pt on input line
- 83.
+ 60.
  [2] [3 <./seq2seq.PNG>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
 
-Overfull \hbox (15.0112pt too wide) in paragraph at lines 131--132
+Overfull \hbox (15.0112pt too wide) in paragraph at lines 108--109
 []\OT1/ptm/m/n/10 Given that sam-ple se-quences are re-cur-sively gen-er-ated b
 y shift-ing the win-dow by one time step, successively-
  []
@@ -629,89 +629,92 @@ y shift-ing the win-dow by one time step, successively-
 <output_dims.PNG, id=133, 736.7525pt x 436.63126pt>
 File: output_dims.PNG Graphic file (type png)
 <use output_dims.PNG>
-Package pdftex.def Info: output_dims.PNG  used on input line 151. on input line
- 151.
+Package pdftex.def Info: output_dims.PNG  used on input line 128. on input line
+ 128.
 Package pdftex.def Info: Requested size: 279.50037pt x 165.64177pt on input lin
-e 151.
+e 128.
  [5 <./output_dims.PNG>]
 <heatmaps.PNG, id=144, 973.38657pt x 645.16031pt>
 File: heatmaps.PNG Graphic file (type png)
 <use heatmaps.PNG>
-Package pdftex.def Info: heatmaps.PNG  used on input line 166. on input line 16
-6.
+Package pdftex.def Info: heatmaps.PNG  used on input line 143. on input line 14
+3.
 Package pdftex.def Info: Requested size: 344.005pt x 228.00478pt on input line 
-166.
+143.
  [6 <./heatmaps.PNG>]
 <pca_cluster_2.PNG, id=153, 694.84593pt x 457.71pt>
 File: pca_cluster_2.PNG Graphic file (type png)
 <use pca_cluster_2.PNG>
-Package pdftex.def Info: pca_cluster_2.PNG  used on input line 189. on input li
-ne 189.
+Package pdftex.def Info: pca_cluster_2.PNG  used on input line 157. on input li
+ne 157.
 Package pdftex.def Info: Requested size: 215.0023pt x 141.62323pt on input line
- 189.
+ 157.
 <context_timeline_2.PNG, id=154, 361.35pt x 487.8225pt>
 File: context_timeline_2.PNG Graphic file (type png)
 <use context_timeline_2.PNG>
-Package pdftex.def Info: context_timeline_2.PNG  used on input line 195. on inp
-ut line 195.
+Package pdftex.def Info: context_timeline_2.PNG  used on input line 163. on inp
+ut line 163.
 Package pdftex.def Info: Requested size: 107.50114pt x 145.12712pt on input lin
-e 195.
+e 163.
 <pca_cluster_6.PNG, id=155, 695.59875pt x 455.45157pt>
 File: pca_cluster_6.PNG Graphic file (type png)
 <use pca_cluster_6.PNG>
-Package pdftex.def Info: pca_cluster_6.PNG  used on input line 200. on input li
-ne 200.
+Package pdftex.def Info: pca_cluster_6.PNG  used on input line 168. on input li
+ne 168.
 Package pdftex.def Info: Requested size: 215.0023pt x 140.77155pt on input line
- 200.
+ 168.
 <context_timeline_6.PNG, id=156, 365.86688pt x 481.04718pt>
 File: context_timeline_6.PNG Graphic file (type png)
 <use context_timeline_6.PNG>
-Package pdftex.def Info: context_timeline_6.PNG  used on input line 206. on inp
-ut line 206.
+Package pdftex.def Info: context_timeline_6.PNG  used on input line 174. on inp
+ut line 174.
 Package pdftex.def Info: Requested size: 107.50114pt x 141.34248pt on input lin
-e 206.
+e 174.
 
 Underfull \vbox (badness 1377) has occurred while \output is active []
 
  [7 <./pca_cluster_2.PNG> <./context_timeline_2.PNG> <./pca_cluster_6.PNG> <./c
 ontext_timeline_6.PNG>]
-<ex2_pca_cluster_2.PNG, id=169, 691.08188pt x 454.69875pt>
+<ex2_pca_cluster_2.PNG, id=171, 691.08188pt x 454.69875pt>
 File: ex2_pca_cluster_2.PNG Graphic file (type png)
 <use ex2_pca_cluster_2.PNG>
-Package pdftex.def Info: ex2_pca_cluster_2.PNG  used on input line 224. on inpu
-t line 224.
+Package pdftex.def Info: ex2_pca_cluster_2.PNG  used on input line 191. on inpu
+t line 191.
 Package pdftex.def Info: Requested size: 150.50424pt x 99.02106pt on input line
- 224.
-<ex2_context_timeline_2.PNG, id=170, 732.48656pt x 290.58563pt>
+ 191.
+<ex2_context_timeline_2.PNG, id=172, 732.48656pt x 290.58563pt>
 File: ex2_context_timeline_2.PNG Graphic file (type png)
 <use ex2_context_timeline_2.PNG>
-Package pdftex.def Info: ex2_context_timeline_2.PNG  used on input line 230. on
- input line 230.
+Package pdftex.def Info: ex2_context_timeline_2.PNG  used on input line 197. on
+ input line 197.
 Package pdftex.def Info: Requested size: 258.00539pt x 102.35385pt on input lin
-e 230.
-<ex2_pca_cluster_6.PNG, id=171, 691.83469pt x 456.95718pt>
+e 197.
+<ex2_pca_cluster_6.PNG, id=173, 691.83469pt x 456.95718pt>
 File: ex2_pca_cluster_6.PNG Graphic file (type png)
 <use ex2_pca_cluster_6.PNG>
-Package pdftex.def Info: ex2_pca_cluster_6.PNG  used on input line 235. on inpu
-t line 235.
+Package pdftex.def Info: ex2_pca_cluster_6.PNG  used on input line 202. on inpu
+t line 202.
 Package pdftex.def Info: Requested size: 150.50424pt x 99.4083pt on input line 
-235.
-<ex2_context_timeline_6.PNG, id=172, 733.23938pt x 289.83281pt>
+202.
+<ex2_context_timeline_6.PNG, id=174, 733.23938pt x 289.83281pt>
 File: ex2_context_timeline_6.PNG Graphic file (type png)
 <use ex2_context_timeline_6.PNG>
-Package pdftex.def Info: ex2_context_timeline_6.PNG  used on input line 241. on
- input line 241.
+Package pdftex.def Info: ex2_context_timeline_6.PNG  used on input line 208. on
+ input line 208.
 Package pdftex.def Info: Requested size: 258.00539pt x 101.98254pt on input lin
-e 241.
+e 208.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [8 <./ex2_pca_cluster_2.PNG> <./ex2_context_timeline_2.PNG> <./ex2_pca_cluster
 _6.PNG> <./ex2_context_timeline_6.PNG>]
-Overfull \hbox (16.43156pt too wide) in paragraph at lines 260--261
+Overfull \hbox (16.43156pt too wide) in paragraph at lines 227--228
 []\OT1/ptm/m/n/10 Nevertheless, the pro-posed ap-proach has not in-cluded any c
 at-e-gor-i-cal sen-sor mea-sure-ments (e.g. open/closed,
  []
 
 
-Overfull \hbox (0.22087pt too wide) in paragraph at lines 260--261
+Overfull \hbox (0.22087pt too wide) in paragraph at lines 227--228
 \OT1/ptm/m/n/10 tripped/healthy, start/stop... etc). Fu-ture re-search can fo-c
 us on in-cor-po-rat-ing cat-e-gor-i-cal mea-sure-ments along-
  []
@@ -722,44 +725,44 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 11.
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [9])
 [10]
-<process_diagram.PNG, id=225, 1853.42438pt x 1072.75781pt>
+<process_diagram.PNG, id=227, 1853.42438pt x 1072.75781pt>
 File: process_diagram.PNG Graphic file (type png)
 <use process_diagram.PNG>
-Package pdftex.def Info: process_diagram.PNG  used on input line 378. on input 
-line 378.
+Package pdftex.def Info: process_diagram.PNG  used on input line 243. on input 
+line 243.
 Package pdftex.def Info: Requested size: 344.005pt x 199.09547pt on input line 
-378.
-<lp-stage.PNG, id=226, 788.9475pt x 518.6878pt>
+243.
+<lp-stage.PNG, id=228, 788.9475pt x 518.6878pt>
 File: lp-stage.PNG Graphic file (type png)
 <use lp-stage.PNG>
-Package pdftex.def Info: lp-stage.PNG  used on input line 385. on input line 38
-5.
+Package pdftex.def Info: lp-stage.PNG  used on input line 250. on input line 25
+0.
 Package pdftex.def Info: Requested size: 215.0023pt x 141.34555pt on input line
- 385.
+ 250.
  [11 <./process_diagram.PNG> <./lp-stage.PNG>]
-Overfull \hbox (4.82593pt too wide) in paragraph at lines 407--408
+Overfull \hbox (4.82593pt too wide) in paragraph at lines 272--273
 []\OT1/ptm/m/n/7 GB[]TEMPINPUTBRGTHRUSTINBOARD 
  []
 
 
-Overfull \hbox (1.83702pt too wide) in paragraph at lines 408--409
+Overfull \hbox (1.83702pt too wide) in paragraph at lines 273--274
 []\OT1/ptm/m/n/7 GB[]TEMPINPUTBRGTHRUSTOUTBRD 
  []
 
 
-Overfull \hbox (4.17499pt too wide) in paragraph at lines 412--413
+Overfull \hbox (4.17499pt too wide) in paragraph at lines 277--278
 []\OT1/ptm/m/n/7 GB[]TEMPOUTPUTBRGNONDRIVEEND 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 560.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 425.
 [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 560.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 425.
  (paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 560.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 560.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 425.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 425.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: E909F138D9A478CCC2464F99F189C429;115.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 560.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 425.
  ) 
 Here is how much of TeX's memory you used:
  9361 strings out of 493323
@@ -768,7 +771,7 @@ Here is how much of TeX's memory you used:
  12519 multiletter control sequences out of 15000+200000
  30039 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,40p,973b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,40p,1020b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -784,9 +787,9 @@ pe1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
 w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (12 pages, 1280016 bytes).
+Output written on paper.pdf (12 pages, 1280196 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
+ 501 PDF objects out of 1000 (max. 8388607)
  227 named destinations out of 1000 (max. 500000)
  74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
