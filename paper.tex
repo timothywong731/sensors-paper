@@ -1,8 +1,6 @@
 \documentclass[runningheads]{llncs}
-
-\usepackage{graphicx}
 \usepackage[linesnumbered,ruled]{algorithm2e}
-\usepackage{times,hyperref,hyperref, amssymb,amsmath, amsfonts, graphicx,float,subcaption,geometry,latexsym,url,multicol}
+\usepackage{times,hyperref,amssymb,amsmath,amsfonts,graphicx,float,subcaption,geometry,latexsym,url,multicol}
 
 \begin{document}
 	
@@ -46,7 +44,7 @@ Among neural network researches, \cite{srivastava-et-al} proposed a recurrent au
 
 Similarly, audio clips can treated as sequential data. A study \cite{chung} converted variable-length audio data into fixed-length vector representation using recurrent auto-encoder model. It found that audio segments that sound alike usually have vector representations in same neighbourhood.
 
-There are other works related to time series data. For instance, a recent paper \cite{malhotra} proposed a recurrent auto-encoder model which aims at providing fixed-length representation for bounded univariate time series data. The model was trained on a plurality of labelled datasets with the aim of becoming a generic time series feature extractor. Dimensionality reduction of the vector representation via t-SNE shows that the ground truth labels can be observed in the extracted representations. Another study \cite{hsu} proposed a time series compression algorithm using a pair of RNN encoder-decoder structure and an additional auto-encoder to achieve higher compression ratio. Meanwhile, another research \cite{lee-d} used an auto-encoder model with database metrics (e.g. CPU usage, number of active sessions... etc) to identify anomalous usage periods by setting threshold on the reconstruction error.
+There are other works related to time series data. For instance, a recent paper \cite{malhotra} proposed a recurrent auto-encoder model which aims at providing fixed-length representation for bounded univariate time series data. The model was trained on a plurality of labelled datasets with the aim of becoming a generic time series feature extractor. Dimensionality reduction of the vector representation via t-SNE shows that the ground  labels can be observed in the extracted representations. Another study \cite{hsu} proposed a time series compression algorithm using a pair of RNN encoder-decoder structure and an additional auto-encoder to achieve higher compression ratio. Meanwhile, another research \cite{lee-d} used an auto-encoder model with database metrics (e.g. CPU usage, number of active sessions... etc) to identify anomalous usage periods by setting threshold on the reconstruction error.
 
 \section{Methods}
 
@@ -57,7 +55,7 @@ At high level, the RNN encoder reads an input sequence and summarises all inform
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{seq2seq.PNG}
+	\includegraphics[width=1\textwidth]{seq2seq.png}
 	\caption{Recurrent auto-encoder model. Both the encoder and decoder are made up of multilayered RNN. Arrows indicate the direction of information flow.}
 	\label{fig:seq2seq}
 \end{figure}
@@ -125,7 +123,7 @@ We have experimented three scenarios where the first two have complete dimension
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.65\textwidth]{output_dims.PNG}
+	\includegraphics[width=0.65\textwidth]{output_dims.png}
 	\caption{Effects of relaxing dimensionality of the output sequence on the training and validation MSE losses. They contain same number of layers in the RNN encoder and decoder respectively. All hidden layers contain same number of LSTM neurons with hyperbolic tangent activation.}
 	\label{fig:output_dims}
 \end{figure}
@@ -140,7 +138,7 @@ Randomly selected samples in the held-out validation set were fed to this model 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.8\textwidth]{heatmaps.PNG}
+	\includegraphics[width=.8\textwidth]{heatmaps.png}
 	\caption{A heatmap showing eight randomly selected output sequences in the held-out validation set. Colour represents magnitude of sensor measurements in normalised scale.}
 	\label{fig:heatmaps}
 \end{figure}
@@ -154,24 +152,24 @@ At low-dimensional space, we used supervised classification algorithm to learn t
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[b]{0.5\textwidth}
-		\includegraphics[width=\textwidth]{pca_cluster_2.PNG}
+		\includegraphics[width=\textwidth]{pca_cluster_2.png}
 		\caption{\(2\) clusters}
 		\label{fig:pca_cluster_2}
 	\end{subfigure}
 	~
 	\begin{subfigure}[b]{0.25\textwidth}
-		\includegraphics[width=\textwidth]{context_timeline_2.PNG}
+		\includegraphics[width=\textwidth]{context_timeline_2.png}
 		\label{fig:context_timeline_2}
 	\end{subfigure}
 	
 	\begin{subfigure}[b]{0.5\textwidth}
-		\includegraphics[width=\textwidth]{pca_cluster_6.PNG}
+		\includegraphics[width=\textwidth]{pca_cluster_6.png}
 		\caption{\(6\) clusters}
 		\label{fig:pca_cluster_6}
 	\end{subfigure}
 	~
 	\begin{subfigure}[b]{0.25\textwidth}
-		\includegraphics[width=\textwidth]{context_timeline_6.PNG}
+		\includegraphics[width=\textwidth]{context_timeline_6.png}
 		\label{fig:context_timeline_6}
 	\end{subfigure}
 	
@@ -188,24 +186,24 @@ Furthermore, we have repeated the same experiment again with a different configu
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[b]{0.35\textwidth}
-		\includegraphics[width=\textwidth]{ex2_pca_cluster_2.PNG}
+		\includegraphics[width=\textwidth]{ex2_pca_cluster_2.png}
 		\caption{\(2\) clusters}
 		\label{fig:ex2_pca_cluster_2}
 	\end{subfigure}
 	~
 	\begin{subfigure}[b]{0.6\textwidth}
-		\includegraphics[width=\textwidth]{ex2_context_timeline_2.PNG}
+		\includegraphics[width=\textwidth]{ex2_context_timeline_2.png}
 		\label{fig:ex2_context_timeline_2}
 	\end{subfigure}
 	
 	\begin{subfigure}[b]{0.35\textwidth}
-		\includegraphics[width=\textwidth]{ex2_pca_cluster_6.PNG}
+		\includegraphics[width=\textwidth]{ex2_pca_cluster_6.png}
 		\caption{\(6\) clusters}
 		\label{fig:ex2_pca_cluster_6}
 	\end{subfigure}
 	~
 	\begin{subfigure}[b]{0.6\textwidth}
-		\includegraphics[width=\textwidth]{ex2_context_timeline_6.PNG}
+		\includegraphics[width=\textwidth]{ex2_context_timeline_6.png}
 		\label{fig:ex2_context_timeline_6}
 	\end{subfigure}
 	
@@ -240,14 +238,14 @@ The rotary components are driven by industrial RB-211 jet turbine on a single sh
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{process_diagram.PNG}
+	\includegraphics[width=0.8\textwidth]{process_diagram.png}
 	\caption{A simplified process diagram of the two-stage centrifugal compression train which is located at a natural gas terminal.}
 	\label{fig:process_diagram}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{lp-stage.PNG}
+	\includegraphics[width=0.5\textwidth]{lp-stage.png}
 	\caption{Locations of key components around the centrifugal compressor.}
 	\label{fig:lp_stage}
 \end{figure}
