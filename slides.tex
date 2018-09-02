@@ -39,9 +39,9 @@ Engineering Applications of Neural Networks (EANN 2018)\\
   \begin{itemize}
     \item Gas compression sub-system at a gas terminal 
     \begin{itemize}
-      \item Two centrifugal compressors driven on a single shaft
       \item Powered by aeroderivative gas turbine
-      \item Regulates gas pressure at a certain level
+      \item Two centrifugal compressors driven on a single shaft
+      \item Regulates gas pressure
     \end{itemize}
     \begin{figure}
     	\centering
@@ -96,11 +96,11 @@ Engineering Applications of Neural Networks (EANN 2018)\\
 
 \begin{frame}[shrink]{Recurrent Auto-Encoder Model}
   \begin{itemize}
-    \item RNN Encoder-decoder model
+    \item RNN encoder-decoder model
     \item Convert to recurrent auto-encoder by aligning input/output time steps
-    \item Performs partial reconstruction on the decoder side
-    \item Decoder dimension smaller than Encoder dimension
     \item Deep structure learns abstract temporal patterns
+    \item Performs partial reconstruction on the decoder side
+    \\ (Decoder dimension smaller than Encoder dimension)
   \end{itemize}
   \[
     \begin{cases} 
@@ -157,13 +157,13 @@ LSTM neuron \cite{hochreiter1997}
 \end{columns}
 \end{frame}
 
-\begin{frame}{Sampling}
+\begin{frame}[shrink]{Sampling}
   \begin{itemize}
     \item Recursively generating time series samples with fixed length
     \item Samples of length \(T\) can be generated from any time series dataset with length \(T^{'} \geq T \)
     \item \(T^{'}-T\) samples can be generated
+    \item Standardising dataset using \(z\)-score \( z_p=\frac{x_p-\bar{x}_p}{\sigma_p} \)
   \end{itemize}
-  
   
   \begin{algorithm}[H]
   	\label{consecutive_sampling}
@@ -179,19 +179,11 @@ LSTM neuron \cite{hochreiter1997}
   \end{algorithm}
 \end{frame}
 
-\begin{frame}{Scaling}
-  \begin{itemize}
-    \item Standardising dataset using \(z\)-score
-  \end{itemize}
-  \[ z_p=\frac{x_p-\bar{x}_p}{\sigma_p} \]
-\end{frame}
-
 \begin{frame}{Results}
   \begin{figure}[h]
   	\centering
   	\includegraphics[width=0.65\textwidth]{output_dims.png}
   	\caption{Effects of relaxing dimensionality of the output sequence on the training and validation MSE losses.}
-
   \end{figure}
 \end{frame}
 
@@ -336,16 +328,29 @@ LSTM neuron \cite{hochreiter1997}
 \end{frame}
 
 
-
-
-
-\begin{frame}[shrink]{Summary}
+\begin{frame}{Summary}
   \begin{itemize}
     \item Unsupervised clustering method for multidimensional time series
     \item Neural network-based time series feature selection
-    \item Works with any real-  valued temporal measurement (e.g. temperature, pressure… etc.)
     \item Operating states identification
   \end{itemize}
+\end{frame}
+
+\begin{frame}{Summary}
+  Application area
+    \begin{itemize}
+      \item Works with any real-valued sensor measurement 
+        \\ (e.g. temperature, pressure... etc.)
+      \item Large scale multi-sensor system (Multidimensional time series)
+      \item Unbounded and unlabelled time series
+    \end{itemize}
+  Further work
+    \begin{itemize}
+      \item Categorical sensor measurements 
+        \\(e.g. start vs stop, full vs empty... etc.)
+      \item Discrete events 
+        \\(e.g. component replacement, unplanned outage, )
+    \end{itemize}
 \end{frame}
 
 \begin{frame}[allowframebreaks]{Bibilography}
