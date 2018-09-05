@@ -300,34 +300,6 @@ LSTM neuron \cite{hochreiter1997}
 \end{figure}
 \end{frame}
 
-
-
-\begin{frame}{Input Sequence Reversal}
-  \begin{itemize}
-    \item Forward sequence: \(\{\mathbb{R}_1^P, \mathbb{R}_1^P, \mathbb{R}_3^P,...,\mathbb{R}_{T-1}^P, \mathbb{R}_T^P \}\)
-    \item Reverse sequence: \(\{\mathbb{R}_T^P, \mathbb{R}_{T-1}^P, \mathbb{R}_{T-2}^P,...,\mathbb{R}_2^P, \mathbb{R}_1^P \}\)
-  \end{itemize}
-  \begin{figure}[H]
-  	\centering
-  	\includegraphics[width=1\textwidth]{reverse.PNG}
-  	\caption{Effects of sequence reversal on training/validation MSE losses.}
-  \end{figure}
-\end{frame}
-
-
-
-\begin{frame}{Adjusting Sequence Length}
-  \begin{itemize}
-    \item Training/validation loss goes up when sequednce length \(T\) is increased.
-  \end{itemize}
-  \begin{figure}[H]
-  	\centering
-  	\includegraphics[width=1\textwidth]{sequence_length.PNG}
-  	\caption{Effects of sequence length on training/validation MSE losses.}
-  \end{figure}
-\end{frame}
-
-
 \begin{frame}{Summary}
   \begin{itemize}
     \item Unsupervised clustering method for multidimensional time series
