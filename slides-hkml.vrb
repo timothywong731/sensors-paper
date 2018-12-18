@@ -1,0 +1,22 @@
+\frametitle{Citation}
+
+Use this BibTeX entry to cite the article:
+
+  \begin{scriptsize}
+  \begin{lstlisting}
+  @InProceedings{
+    10.1007/978-3-319-98204-5_17,
+    author="Wong, Timothy and Luo, Zhiyuan",
+    editor="Pimenidis, Elias and Jayne, Chrisina",
+    title="Recurrent Auto-Encoder Model for
+      Large-Scale Industrial Sensor Signal Analysis",
+    booktitle="Engineering Applications of
+      Neural Networks",
+    year="2018",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="203--216",
+    isbn="978-3-319-98204-5"
+  }
+  \end{lstlisting}
+  \end{scriptsize}

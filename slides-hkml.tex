@@ -1,5 +1,6 @@
 \documentclass{beamer}
-\usecolortheme{wolverine}
+\usetheme{default}
+\usecolortheme{orchid}
 
 % Loading packages
 \usepackage[utf8]{inputenc}
@@ -7,7 +8,7 @@
 \usepackage{amsmath}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage{graphicx,float,subcaption,geometry,booktabs, multicol}
+\usepackage{listings,graphicx,float,subcaption,geometry,booktabs, multicol}
 \usepackage[linesnumbered,ruled]{algorithm2e}
 
 % Define details on slide cover page
@@ -15,11 +16,8 @@
 \author{Timothy Wong}
 \institute{Centrica plc, Millstream, Maindenhead Road, Windsor SL4 5GD, United Kingdom.}
 
-\date{
-{
-Hong Kong Machine Learning Meetup\\
+\date{Hong Kong Machine Learning Meetup\\
 19\textsuperscript{th} December, 2018}
-}
 
 % Begins the slide deck
 \begin{document}
@@ -348,6 +346,30 @@ LSTM neuron \cite{hochreiter1997}
       \item Discrete events 
         \\(e.g. component replacement, unplanned outage, )
     \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Citation}
+
+Use this BibTeX entry to cite the article:
+
+  \begin{scriptsize}
+  \begin{lstlisting}
+  @InProceedings{
+    10.1007/978-3-319-98204-5_17,
+    author="Wong, Timothy and Luo, Zhiyuan",
+    editor="Pimenidis, Elias and Jayne, Chrisina",
+    title="Recurrent Auto-Encoder Model for
+      Large-Scale Industrial Sensor Signal Analysis",
+    booktitle="Engineering Applications of
+      Neural Networks",
+    year="2018",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="203--216",
+    isbn="978-3-319-98204-5"
+  }
+  \end{lstlisting}
+  \end{scriptsize}
 \end{frame}
 
 \begin{frame}{Q \& A}
